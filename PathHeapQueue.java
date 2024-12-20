@@ -36,9 +36,6 @@ public class PathHeapQueue<V> extends AbstractQueue<WeightedPath<V>> {
 		return (2*x) + 1;
 	}
 
-	
-	/// Invariant checks:
-	
 	private static Consumer<String> reporter = (s) -> System.out.println("Invariant error: "+ s);
 	
 	/**
