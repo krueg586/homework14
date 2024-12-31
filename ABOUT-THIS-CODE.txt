@@ -1,0 +1,8 @@
+These two Java files are two parts of one assignment that I programmed.
+
+'PathHeapQueue.java' sets up what is essentially a minheap data structure in order to function as a priority queue ADT, including all necessary methods to make it functional within the project.  
+Everything within this file was done from scratch by me, except the content from lines 39-50.
+
+'FindPath' is a file that takes in a graph (created by other files provided by the course instructor) that represents different locations that can be traveled to (like cities, for example) and all available paths between the cities. 
+Each path costs a different amount to travel along (think like a plane ticket), and this file essentially finds the lowest cost path, but not necessarily shortest path, between two given cities. 
+This file was a skeleton when I started it, so everything from lines 37-79 is my work. 
